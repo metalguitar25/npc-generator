@@ -1,0 +1,121 @@
+﻿<core_classes>
+	<class name="barbarian">
+		<combat_style name="melee">
+			<ability_scores first="strength" second="constitution" third="dexterity" fourth="intellegence" fifth="wisdom" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="constitution" third="strength" fourth="intellegence" fifth="wisdom" sixth="charisma"></ability_scores>
+		</combat_style>
+		<BAB type="full">
+		</BAB>
+		<Saves fort="good" ref="bad" will="bad">
+		</Saves>
+	</class>
+	<class name="bard">
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="charisma" third="strength" fourth="intellegence" fifth="constitution" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="melee">
+			<ability_scores first="strength" second="charisma" third="dexterity" fourth="constitution" fifth="intellegence" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="casting">
+			<ability_scores first="charisma" second="strength" third="dexterity" fourth="constitution" fifth="intellegence" sixth="wisdom"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="cleric">
+		<combat_style name="melee">
+			<ability_scores first="strength" second="constitution" third="wisdom" fourth="dexterity" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="casting">
+			<ability_scores first="wisdom" second="dexterity" third="strength" fourth="constitution" fifth="charisma" sixth="intellegence"></ability_scores>
+		</combat_style>
+		<combat_style name="casting2">
+			<ability_scores first="wisdom" second="charisma" third="constitution" fourth="dexterity" fifth="intellegence" sixth="strength"></ability_scores>
+		</combat_style>
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="wisdom" third="strength" fourth="constitution" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+	</class>
+		<class name="druid">
+		<combat_style name="melee">
+			<ability_scores first="strength" second="dexterity" third="constitution" fourth="wisdom" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="casting">
+			<ability_scores first="wisdom" second="dexterity" third="constitution" fourth="intellegence" fifth="charisma" sixth="strength"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="fighter">
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="strength" third="wisdom" fourth="constitution" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee">
+			<ability_scores first="strength" second="constitution" third="dexterity" fourth="wisdom" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee2">
+			<ability_scores first="strength" second="dexterity" third="constitution" fourth="intellegence" fifth="wisdom" sixth="charisma"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="monk">
+		<combat_style name="melee">
+			<ability_scores first="strength" second="wisdom" third="dexterity" fourth="constitution" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee2">
+			<ability_scores first="strength" second="dexterity" third="wisdom" fourth="constitution" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="paladin">
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="charisma" third="strength" fourth="intellegence" fifth="constitution" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="casting">
+			<ability_scores first="charisma" second="strength" third="constitution" fourth="intellegence" fifth="dexterity" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="melee">
+			<ability_scores first="strength" second="charisma" third="constitution" fourth="dexterity" fifth="intellegence" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="casting2">
+			<ability_scores first="charisma" second="constitution" third="dexterity" fourth="intellegence" fifth="strength" sixth="wisdom"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="ranger">
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="wisdom" third="constitution" fourth="strength" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee">
+			<ability_scores first="strength" second="wisdom" third="constitution" fourth="dexterity" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="rogue">
+		<combat_style name="ranged">
+			<ability_scores first="dexterity" second="constitution" third="wisdom" fourth="strength" fifth="constitution" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee">
+			<ability_scores first="strength" second="constitution" third="wisdom" fourth="dexterity" fifth="intellegence" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="melee2">
+			<ability_scores first="dexterity" second="wisdom" third="intellegence" fourth="constitution" fifth="strength" sixth="charisma"></ability_scores>
+		</combat_style>
+		<combat_style name="ranged2">
+			<ability_scores first="dexterity" second="intellegence" third="constitution" fourth="charisma" fifth="wisdom" sixth="strength"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="sorcerer">
+		<combat_style name="casting">
+			<ability_scores first="charisma" second="dexterity" third="constitution" fourth="intellegence" fifth="wisdom" sixth="strength"></ability_scores>
+		</combat_style>
+		<combat_style name="muscle sorcerer">
+			<ability_scores first="strength" second="charisma" third="constitution" fourth="dexterity" fifth="intellegence" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="casting2">
+			<ability_scores first="charimsa" second="intellgence" third="constitution" fourth="dexterity" fifth="wisdom" sixth="strength"></ability_scores>
+		</combat_style>
+	</class>
+	<class name="wizard">
+		<combat_style name="casting">
+			<ability_scores first="intellegence" second="dexterity" third="constitution" fourth="charisma" fifth="strength" sixth="wisdom"></ability_scores>
+		</combat_style>
+		<combat_style name="casting2">
+			<ability_scores first="intellegence" second="dexterity" third="constitution" fourth="wisdom" fifth="charisma" sixth="strength"></ability_scores>
+		</combat_style>
+	</class>
+</core_classes>
